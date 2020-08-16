@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Formulário de Cadastro</title>
+		<meta charset="utf-8">
+		<meta id="viewport" name="viewport" content="width=device-width, user-scalable=no">
+		<link rel="stylesheet" type="text/css" href="css/form.css">
+	</head>
+	<body>
+		<section class="corpo">
+			<h1>Cadastro inicial</h1>
+			<form method="POST" class="form">
+				<div class="base">
+					<div class="pessoal">
+						<h2>Informações Pessoais</h2>
+						<div class="pesscontent">
+							Nome Completo:<br/>
+							<input type="text" name="nome" placeholder="Nome Completo" required /><br/>
+							Usuário:<br/>
+							<input type="text" name="usuario" placeholder="Usuário" required /><br/>
+							Senha:<br/>
+							<input type="password" name="password" placeholder="Senha" required /><br/>
+							Data de Nascimento:<br/>
+							<input type="date" name="date" placeholder="Data de Nascimento" required /><br/>
+							Sexo: <br/>
+							<select>
+								<option>Feminino</option>
+								<option>Masculino</option>
+								<option>Outro</option>
+							</select><br/>
+							Estado Civil:<br/>
+							<select>
+								<option>Solteiro(a)</option>
+								<option>Casado(a)</option>
+								<option>Divorciado(a)</option>
+								<option>Viúvo(a)</option>
+								<option>Outro</option>
+							</select><br/><br/>
+						</div>
+					</div>
+					<div class="contato">
+						<h2>Informações de Contato</h2>
+						<div class="contatocontent">
+							Telefone:<br/>
+							<input type="tel" name="telefone" placeholder="Telefone" required /><br/>
+							E-mail: <br/>
+							<input type="email" name="email" placeholder="E-mail" required /><br/>
+							Site pessoal: <br/>
+							<input type="url" name="site" placeholder="Site pessoal" required /><br/>
+							Endereço: <br/>
+							<input type="text" name="endereço" placeholder="Endereço" required /> <br/>
+							Complemento: <br/>
+							<input type="text" name="endereço" placeholder="Complemento" size="8" /><br/>
+							Bairro: <br/>
+							<input type="text" name="endereço" placeholder="Bairro" required /><br/>
+							Cidade: <br/>
+							<input type="text" name="endereço" placeholder="Cidade" required /> <br/>
+							Estado: <br/>
+							<select>
+								<option>Acre</option>
+								<option>Alagoas</option>
+								<option>Amapá</option>
+								<option>Amazonas</option>
+								<option>Bahia</option>
+								<option>Ceará</option>
+								<option>Distrito Federal</option>
+								<option>Espírito Santo</option>
+								<option>Goiás</option>
+								<option>Maranhão</option>
+								<option>Mato Grosso</option>
+								<option>Mato Grosso do Sul</option>
+								<option>Minas Gerais</option>
+								<option>Pará</option>
+								<option>Paraíba</option>
+								<option>Paraná</option>
+								<option>Pernambuco</option>
+								<option>Piauí</option>
+								<option>Rio de Janeiro</option>
+								<option>Rio Grande do Norte</option>
+								<option>Rio Grande do Sul</option>
+								<option>Rondônia</option>
+								<option>Roraima</option>
+								<option>Santa Catarina</option>
+								<option>São Paulo</option>
+								<option>Sergipe</option>
+								<option>Tocantins</option>
+							</select><br/><br/>
+						</div>
+					</div>
+					<div class="preferencias">
+						<h2>Preferências</h2>
+						<div class="prefcontent">
+							Estação do ano:<br/>
+							<input type="radio" name="estações"/> Primavera <br/>
+							<input type="radio" name="estações"/> Verão <br/>
+							<input type="radio" name="estações"/> Outono <br/>
+							<input type="radio" name="estações"/> Inverno <br/><br/>
+							Cor:<input type="color" name="cor"/> <br/><br/>
+							Rede Social: <br/>
+							<input type="checkbox" name="social"/> Whatsapp <br/>
+							<input type="checkbox" name="social"/> Telegram <br/>
+							<input type="checkbox" name="social"/> Twitter <br/>
+							<input type="checkbox" name="social"/> Facebok <br/>
+							<input type="checkbox" name="social"/> Instagram <br/>
+							<input type="checkbox" name="social"/> Tumblr <br/>
+							<input type="checkbox" name="social"/> Pinterest <br/>
+							<input type="checkbox" name="social"/> Outras <br/><br/>
+						</div>
+					</div>
+				</div>
+				<div class="sugestions">
+					Sugestões: <br/>
+					<textarea></textarea><br/>
+					<input type="submit" value="Enviar"/>
+				</div>
+			</form>
+		</section>
+		<footer>
+			<div class="madeby">
+				Criado por <a href="https://github.com/ravenakaus" target="_blank">Júlia Paskauskas</a> como exercício para o curso <a href="https://b7web.com.br/php/" target="blank">PHP do Zero ao Profissional</a>
+			</div>
+		</footer>
+	</body>
+</html>
